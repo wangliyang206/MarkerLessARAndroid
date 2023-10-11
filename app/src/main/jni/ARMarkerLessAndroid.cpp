@@ -125,8 +125,8 @@ extern "C"
 {
     void Initialize()
     {
-        // ��ȡģ��
-        template_img = imread("/storage/emulated/0/ygx/template.bmp");
+        // 读取模板位置
+        template_img = imread("/storage/emulated/0/GrainFull/Template/template.bmp");
         
         orb(template_img, Mat(), keyPoints_1, descriptors_1);
         

@@ -1,9 +1,12 @@
 package com.zqw.mobile.markerlessarandroid;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+/**
+ * Android NDK开发：NDK + makefile文件 + make工具生成本地库
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override
